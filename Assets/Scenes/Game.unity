@@ -288,8 +288,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124577691}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24858941, y: -0.000000022460789, z: 0.0000000057644667, w: 0.968609}
-  m_LocalPosition: {x: 0, y: 5.93, z: -9.7}
+  m_LocalRotation: {x: 0.23617047, y: 0.000000011061458, z: -0.0000000026884406, w: 0.97171164}
+  m_LocalPosition: {x: 0, y: 6.5099998, z: -11.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 431984931}
   - component: {fileID: 431984935}
   - component: {fileID: 431984936}
+  - component: {fileID: 431984937}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Player
@@ -443,6 +444,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &431984937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431984930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d61ca5710d19b44cabfdc79e5ce85ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverAltitude: -10
+  gameOverSceneName: GameOver
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,8 +638,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24858941, y: -0.000000022460789, z: 0.000000005764467, w: 0.968609}
-  m_LocalPosition: {x: 0, y: 5.93, z: -9.7}
+  m_LocalRotation: {x: 0.23617049, y: 0.000000011061459, z: -0.0000000026884417, w: 0.97171164}
+  m_LocalPosition: {x: 0, y: 6.5099998, z: -11.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1020,7 +1035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 5.33, z: -9.7}
+  m_FollowOffset: {x: 0, y: 5.91, z: -11.44}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
