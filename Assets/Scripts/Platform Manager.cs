@@ -48,6 +48,7 @@ public class PlatformManager : MonoBehaviour
             StartCoroutine(SpawnNewPlatform());
         }
     }
+   
     GameObject SpawnPlatform(Vector3 position)
     {
         return Instantiate(platformPrefab, position, Quaternion.identity);
